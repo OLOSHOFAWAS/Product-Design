@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
-
-
 * {
     padding: 0;
     margin: 0;
@@ -10,11 +8,11 @@
 }
 
 
-/* CSS VARIALBLES */
+
 :root {
     --header-height: 4rem;
 
-    /* Colors */
+    
     --color-1: hsl(78, 51%, 56%);
     --color-2: hsl(98, 32%, 45%);
     --color-3: hsl(133, 62%, 15%);
@@ -22,11 +20,11 @@
     --color-5: hsl(359, 47%, 51%);
     --background-color: hsl(0, 0%, 100%);
 
-    /* Typography | 1rem = 16px */
+    
     --body-font: "Montserrat", san-serif;
     --normal-font: .938rem;
 
-    /* Font Weights */
+    
     --font-weight-1: 400;
     --font-weight-2: 600;
     --font-weight-3: 800;
@@ -145,12 +143,6 @@ body {
     background-color: var(--color-5);
 }
 
- /* {
-    background-color: var(--color-1);
-    color: #000;
-    transform: scale(.97);
-} */
-
 .hero-btns .btn:last-of-type {
     color: var(--color-4);
 }
@@ -194,7 +186,7 @@ body {
 
 
 
-/* ========== Benefits Section =========== */
+
 .benefits {
     width: 100%;
     background-color: var(--color-1);
@@ -262,9 +254,6 @@ body {
     font-weight: 500;
     color: #000;
 }
-
-
-/* ========== About Section ===========*/
 .about {
     width: 100%;
     height: auto;
@@ -342,9 +331,6 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
 }
-
-/*========= Testimonials Section ========*/
-
 .testimonials {
     background-color: var(--color-1);
     width: 100%;
@@ -411,7 +397,7 @@ body {
 
 
 
-/* ========= Packages Section ======= */
+
 .package {
     width: 100%;
     background-color: var(--color-1);
@@ -532,8 +518,6 @@ body {
 .pack a:active {
     background-color: hsl(98, 32%, 45%);
 }
-
-/* ====== Form Section ======== */
 
 .form-section {
     width: 100%;
@@ -692,7 +676,7 @@ body {
 }
 
 
-/* ====== FAQ Section =========== */
+
 .faq-section {
     width: 100%;
     background-color: var(--color-2);
@@ -773,8 +757,6 @@ body {
     color: #fff;
     font-weight: 550;
 } 
-
-/* ========= Footer Section ======= */
 
 .footer {
     width: 100%;

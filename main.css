@@ -9,11 +9,11 @@
 }
 
 
-/* CSS VARIALBLES */
+
 :root {
     --header-height: 4rem;
 
-    /* Colors */
+   
     --color-1: hsl(78, 51%, 56%);
     --color-2: hsl(98, 32%, 45%);
     --color-3: hsl(133, 62%, 15%);
@@ -21,11 +21,11 @@
     --color-5: hsl(359, 47%, 51%);
     --background-color: hsl(0, 0%, 100%);
 
-    /* Typography | 1rem = 16px */
+    
     --body-font: "Montserrat", san-serif;
     --normal-font: .938rem;
 
-    /* Font Weights */
+    
     --font-weight-1: 400;
     --font-weight-2: 600;
     --font-weight-3: 800;
@@ -35,7 +35,7 @@
  
 }
 
-/* Responsive Typography */
+
 @media screen and (min-width: 1024px) {
     :root{
         --normal-font: 1rem;
@@ -57,13 +57,13 @@ a {
     text-decoration: none;
 }
 
-/* Reusable Classes */
+
 .container {
     max-width: 1120px;
     margin-inline: 1.5rem;
 }
 
-/* ========== Header =============== */
+
 .header {
     position: fixed;
     top: 0;
@@ -74,7 +74,7 @@ a {
     z-index: var(--z-fixed);
 }
 
-/* ================  Nav  =================*/
+
 nav {
     height: var(--header-height);
     width: 90%;
@@ -170,7 +170,7 @@ nav {
 
 
 
-/* Mbile Responsiveness */
+
 @media screen and (max-width: 340px) {
     .container {
         margin-inline: 1rem;
@@ -188,7 +188,7 @@ nav {
 
 
 
-/* Navigation for mobile Devices */
+
 @media screen and (max-width: 1118px) {
     .nav-menu {
         position: absolute;
@@ -219,14 +219,14 @@ nav {
 
 
 
-/* SHOW MWNU */
+
 .show-menu {
     opacity: 1;
     top: 4rem;
     pointer-events: initial;
 }
 
-/* SHOW CLOSE ICON */
+
 .show-icon .nav-open {
     opacity: 0;
     transform: rotate(90deg);
@@ -239,7 +239,7 @@ nav {
 
 
 
-/* Large Devices */
+
 @media screen and (min-width: 1118px) {
     .container {
         margin-inline: auto;
@@ -306,16 +306,3 @@ nav {
         background-color: transparent;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
